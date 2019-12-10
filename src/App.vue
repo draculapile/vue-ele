@@ -8,7 +8,6 @@
       @scroll="onWrapperScroll">
       <tab :tabs="tabs"></tab>
     </cube-scroll>
-    
   </div>
 </template>
 
