@@ -81,7 +81,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import Star from 'base/star/star'
+  import Star from 'components/star/star'
   import { formatScore } from 'common/js/score'
   import { saveToLocal, loadFromLocal } from 'common/js/store'
 
@@ -173,6 +173,7 @@
   @import "~common/stylus/mixin"
 
   .description
+    background: white
     position: fixed
     top: 125px
     left: 0
